@@ -8,7 +8,7 @@ phases:
       - pip install --upgrade pip
   pre_build:
     commands:
-      - cd python-common
+      - cd ./lambda_layer/python-common
   build:
     commands:
       - chmod +x build.sh
